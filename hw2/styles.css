@@ -1,0 +1,218 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .sixvert {
+    height: 16.6%;
+  }
+
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: #0000ff;
+  }
+
+  .luxblue {
+    background-color: #00A2E1;
+  }
+  
+  .thaiblue {
+    background-color: #2D2A4A;
+  }
+
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .romaniablue {
+    background-color: #002B7F;
+  }
+
+  .romaniayellow {
+    background-color: #FCD116;
+  }
+
+  .romaniared {
+    background-color: #CE1126;
+  }
+
+  .mexicogreen {
+    background-color: #006341;
+  }
+
+  .mexicored {
+    background-color: #CE1126;
+  }
+
+
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
+.img {
+  margin: auto;
+  width: 60%;
+  height: 30%;
+  transform: translate(40%, 120%);
+}
+
+.leftbox {
+  height:100px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.bluebox {
+  height: 67px;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.blueboxx {
+  height: 67px;
+  width: 70px;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+}
+
+.blueboxxx {
+  height: 67px;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.blueboxxxx {
+  height: 67px;
+  width: 70px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.thin {
+  height: 11.1111111%
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+
+.ninevert {
+  height: 11.1111111111111111111%
+}
+
+.topleft {
+  width: 33.33333333333333333333%;
+  height: 22.6%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.box {
+  width: 40%;
+  height: 40%;
+}
